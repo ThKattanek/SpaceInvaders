@@ -12,7 +12,7 @@ git clone https://github.com/realTobby/SpaceInvaders.git
 cd SpaceInvaders
 mkdir build
 cd build
-cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local      // or other destination directory
+cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local      // for Windows -DCMAKE_INSTALL_PREFIX=./install
 make
 make install
 ```
