@@ -8,8 +8,8 @@ Prerequisites:
 ## Compiling and installing
 ```bash
 cd ~
-git clone https://github.com/ThKattanek/sfml-demo.git
-cd sfml-demo
+git clone https://github.com/realTobby/SpaceInvaders.git
+cd SpaceInvaders
 mkdir build
 cd build
 cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local      // or other destination directory
