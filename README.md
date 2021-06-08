@@ -5,13 +5,17 @@ Prerequisites:
 - C++ Compiler (I am using MINGW-GCC)
 - SFML 2.5.1
 
-Compiling the program:
-
-Run "make" in commandline while in the directory or Run "makeStart.bat". This will compile the "spaceinvaders" program.
-
-or
-
-Run "build.bat" for Windows only.
+## Compiling and installing
+```bash
+cd ~
+git clone https://github.com/ThKattanek/sfml-demo.git
+cd sfml-demo
+mkdir build
+cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local      // or other destination directory
+make
+make install
+```
 
 
 ![Banner](https://github.com/realTobby/SpaceInvaders/blob/main/github/preview2.gif)
