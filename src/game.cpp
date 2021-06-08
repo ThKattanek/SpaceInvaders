@@ -181,7 +181,10 @@ class Game
 
         void SpawnEnemies()
         {
-            if (!enemyTexture.loadFromFile("assets/alien1.png"))
+	    char filename[1024];
+	    sprintf(filename,"%s/alien1.png",DATA_PATH);
+
+	    if (!enemyTexture.loadFromFile(filename))
             {
                 // error...
             }

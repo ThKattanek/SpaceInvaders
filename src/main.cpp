@@ -9,7 +9,7 @@
 
 int main()
 {
-
+    cout << "DATA_PATH: " << DATA_PATH << endl;
 #ifdef _WIN32
     HWND hWnd = GetConsoleWindow();
     ShowWindow( hWnd, SW_HIDE );
